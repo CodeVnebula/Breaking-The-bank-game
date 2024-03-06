@@ -1,1 +1,1 @@
-print("😊")  # Prints a smiling face emoji
+# print("😊")  # Prints a smiling face emoji
