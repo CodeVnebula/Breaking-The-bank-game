@@ -9,6 +9,7 @@ def retry():
     while which_one not in ['retry', 'quit']:
         which_one = input(">> ").lower()
     if which_one == 'retry':
+        time.sleep(1)
         os.system("cls")
     elif which_one == 'quit':
         print("Quiting the game. Bye...👋", end="\n\n")
