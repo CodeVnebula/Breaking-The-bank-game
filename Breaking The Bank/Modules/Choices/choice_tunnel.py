@@ -1,8 +1,6 @@
 import os
 import time
 from Modules.delay_text_display import print_with_delay
-from Modules.retry_options import retry
-
 
 def tunnel_case():
     with open("Assets/tunnel.txt", "r") as file:
@@ -15,4 +13,4 @@ def tunnel_case():
         print(end="\n\n\n")
         print("                  ❗ F A I L ❗", end="\n\n")
         print("              Wth Where You Thinking🧐    ", end="\n\n")
-        retry()
+        
